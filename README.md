@@ -1,7 +1,9 @@
 # text-summarization-and-feature-extraction
 <i>Note: The dataset is too large to be uploaded here, so the Kaggle link to the dataset is provided.</i>
+
 ## Dataset Used
 https://www.kaggle.com/iancornish/drug-data
+
 ## Goals
 <i><b>Natural language processing</b></i> includes many different techniques for interpreting human language,
 ranging from statistical and machine learning methods to rules-based and algorithmic approaches.
@@ -43,4 +45,3 @@ Document Frequency. It is one of the most important techniques used for informat
 represent how important a specific word or phrase is to a given document. We then perform <i><b>POS
 Tagging</b></i> on the resultant keywords and filter them based on the requirements
 (adjectives/nouns/gerunds etc.).
-

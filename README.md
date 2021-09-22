@@ -14,6 +14,7 @@ And to get that we are building and <i><b>comparing with several techniques</b><
 appropriate one.
 
 ## Implementation
+### Text Summarization
 Firstly, based on a research paper we used <i><b>unsupervised k-means</b></i> to summarize reviews in an
 extractive way. In this method, we preprocessed the reviews by grouping all reviews drug-wise
 and remove symbols, stop-words, and other unnecessary noises in the data and then apply standard
@@ -27,7 +28,7 @@ clustering used to group objects in clusters based on their similarity. In each 
 the initial clusters are combined with their nearest neighbor until the required number of clusters
 is reached. We do this to find the important sentences which were not detected by the k-means
 algorithm.
-
+### Feature Extraction
 For feature extraction, we use modules like <i><b>RAKE</b></i> and <i><b>BERT</b></i> models to extract features. Rapid
 Automatic Keyword Extraction (RAKE) is a well-known keyword extraction method that uses a
 list of stop words and phrase delimiters to detect the most relevant words or phrases in a piece of
@@ -39,3 +40,6 @@ Document Frequency. It is one of the most important techniques used for informat
 represent how important a specific word or phrase is to a given document. We then perform <i><b>POS
 Tagging</b></i> on the resultant keywords and filter them based on the requirements
 (adjectives/nouns/gerunds etc.).
+
+## Dataset Used
+https://www.kaggle.com/iancornish/drug-data
